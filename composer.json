@@ -1,0 +1,38 @@
+{
+    "name": "inisiatif/contract",
+    "description": "Contract package using in Inisiatif Zakat Indonesia",
+    "license": "proprietary",
+    "type": "library",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.packagist.com/inisiatif/"
+        },
+        {
+            "packagist.org": false
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "illuminate/cache": "^7.0",
+        "illuminate/contracts": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inisiatif\\Package\\Contract\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
