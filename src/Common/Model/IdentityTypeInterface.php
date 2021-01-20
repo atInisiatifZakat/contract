@@ -7,6 +7,6 @@ namespace Inisiatif\Package\Contract\Common\Model;
 use Inisiatif\Package\Contract\Common\Concern\DomainTypeInterface;
 use Inisiatif\Package\Contract\Common\Concern\ToggleAwareInterface;
 
-interface EducationDegreeInterface extends ResourceInterface, DomainTypeInterface, ToggleAwareInterface
+interface IdentityTypeInterface extends ResourceInterface, DomainTypeInterface, ToggleAwareInterface
 {
 }
