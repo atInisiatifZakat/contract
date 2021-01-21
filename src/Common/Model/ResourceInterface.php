@@ -7,7 +7,7 @@ namespace Inisiatif\Package\Contract\Common\Model;
 interface ResourceInterface
 {
     /**
-     * @return integer|string
+     * @return integer|string|null
      */
     public function getId();
 
