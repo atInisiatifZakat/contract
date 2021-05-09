@@ -11,6 +11,11 @@ interface ModelRepositoryInterface
     public function save(ResourceInterface $resource): bool;
 
     /**
+     * @param mixed $id
+     */
+    public function delete($id): void;
+
+    /**
      * @param string|int $id
      * @return mixed
      */

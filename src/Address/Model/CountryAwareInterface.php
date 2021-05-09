@@ -6,10 +6,10 @@ namespace Inisiatif\Package\Contract\Address\Model;
 
 interface CountryAwareInterface
 {
-    public function getCountry(): ?CountryInterface;
+    public function getCountry(): ?int;
 
     /**
      * @return mixed
      */
-    public function setCountry(?CountryInterface $country);
+    public function setCountry(?int $country);
 }
