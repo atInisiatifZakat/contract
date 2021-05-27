@@ -8,8 +8,5 @@ interface CountryAwareInterface
 {
     public function getCountry(): ?int;
 
-    /**
-     * @return mixed
-     */
     public function setCountry(?int $country);
 }

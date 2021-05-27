@@ -24,7 +24,7 @@ interface InstitutionCandidateInterface extends ResourceInterface, CandidateAwar
 
     public function getPhoneNumber(): ?string;
 
-    public function setPhoneNumber(?string $value);
+    public function setPhoneNumber(?string $phoneNumber);
 
     public function getNote(): ?string;
 

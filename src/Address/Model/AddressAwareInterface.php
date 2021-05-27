@@ -12,18 +12,9 @@ interface AddressAwareInterface extends VillageAwareInterface
 
     public function getPhoneNumber(): ?string;
 
-    /**
-     * @return mixed
-     */
     public function setAddress(?string $address);
 
-    /**
-     * @return mixed
-     */
     public function setPostalCode(?string $postalCode);
 
-    /**
-     * @return mixed
-     */
     public function setPhoneNumber(?string $phoneNumber);
 }

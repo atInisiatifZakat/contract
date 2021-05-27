@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Inisiatif\Package\Contract\Candidate\Model;
 
@@ -6,5 +8,5 @@ interface InstitutionCandidateAwareInterface
 {
     public function getInstitution(): ?InstitutionCandidateInterface;
 
-    public function setInstitution(?InstitutionCandidateInterface $type);
+    public function setInstitution(?InstitutionCandidateInterface $value);
 }
