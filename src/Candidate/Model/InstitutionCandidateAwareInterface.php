@@ -8,5 +8,5 @@ interface InstitutionCandidateAwareInterface
 {
     public function getInstitution(): ?InstitutionCandidateInterface;
 
-    public function setInstitution(?InstitutionCandidateInterface $value);
+    public function setInstitution(?InstitutionCandidateInterface $type);
 }
