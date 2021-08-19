@@ -6,7 +6,7 @@ namespace Inisiatif\Package\Contract\Candidate\Model;
 
 interface CandidateTypeAwareInterface
 {
-    public function getType(): ?CandidateTypeInterface;
+    public function getTypeId(): ?CandidateTypeInterface;
 
-    public function setType(?CandidateTypeInterface $type);
+    public function setTypeId(?CandidateTypeInterface $type);
 }

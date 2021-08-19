@@ -8,6 +8,10 @@ use Inisiatif\Package\Contract\Common\Model\ResourceInterface;
 
 interface CandidateInterface extends ResourceInterface, CandidateTypeAwareInterface, CandidateStatusAwareInterface
 {
+    public function getType(): ?string;
+
+    public function setType(?string $value);
+
     public function getIdentificationNumber(): ?string;
 
     public function setIdentificationNumber(?string $value);
