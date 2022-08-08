@@ -13,10 +13,10 @@
         }
     ],
     "require": {
-        "php": "~8.0",
+        "php": "~8.0.0|~8.1.0",
         "ext-json": "*",
-        "illuminate/cache": "^8.26",
-        "illuminate/contracts": "^8.26"
+        "illuminate/cache": "^9.19",
+        "illuminate/contracts": "^9.19"
     },
     "autoload": {
         "psr-4": {
