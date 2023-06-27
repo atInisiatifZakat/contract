@@ -4,7 +4,7 @@
     "license": "proprietary",
     "type": "library",
     "require": {
-        "php": "~8.0.0|~8.1.0",
+        "php": "^8.0",
         "ext-json": "*",
         "illuminate/cache": "^9.19|^10.10",
         "illuminate/contracts": "^9.19|^10.10"
