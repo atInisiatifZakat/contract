@@ -18,13 +18,13 @@ interface RoleRepositoryInterface
     public function syncRolesTo(RoleAwareInterface $model, ...$roles): bool;
 
     /**
-     * @param string|int $id
+     * @param  string|int  $id
      * @return mixed
      */
     public function findUsingId($id);
 
     /**
-     * @param mixed $value
+     * @param  mixed  $value
      * @return mixed
      */
     public function findOneUsingColumn(string $column, $value);
@@ -35,7 +35,7 @@ interface RoleRepositoryInterface
     public function findOneUsingColumns(array $columns);
 
     /**
-     * @param mixed $value
+     * @param  mixed  $value
      * @return mixed
      */
     public function findUsingColumn(string $column, $value);

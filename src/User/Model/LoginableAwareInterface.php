@@ -15,7 +15,7 @@ interface LoginableAwareInterface
     public function getLoginable();
 
     /**
-     * @param mixed $value
+     * @param  mixed  $value
      * @return mixed
      */
     public function setLoginable($value);

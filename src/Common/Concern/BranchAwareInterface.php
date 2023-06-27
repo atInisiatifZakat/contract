@@ -12,7 +12,7 @@ interface BranchAwareInterface
     public function getBranch();
 
     /**
-     * @param mixed $branch
+     * @param  mixed  $branch
      * @return mixed
      */
     public function setBranch($branch);

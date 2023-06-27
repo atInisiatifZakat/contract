@@ -7,13 +7,12 @@ namespace Inisiatif\Package\Contract\Common\Model;
 interface ResourceInterface
 {
     /**
-     * @return integer|string|null
+     * @return int|string|null
      */
     public function getId();
 
     /**
-     * @param integer|string $id
-     *
+     * @param  int|string  $id
      * @return mixed
      */
     public function setId($id);

@@ -10,7 +10,7 @@ use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 interface RequestFilterAwareInterface
 {
     /**
-     * @param Request $request
+     * @param  Request  $request
      */
     public function filter($request): LengthAwarePaginator;
 }

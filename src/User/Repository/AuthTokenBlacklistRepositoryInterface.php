@@ -9,7 +9,7 @@ use Inisiatif\Package\Contract\Common\Repository\ModelRepositoryInterface;
 interface AuthTokenBlacklistRepositoryInterface extends ModelRepositoryInterface
 {
     /**
-     * @param mixed $value
+     * @param  mixed  $value
      * @return mixed
      */
     public function findOneUsingTokenKey($value);

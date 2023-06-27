@@ -12,7 +12,7 @@ interface UserAwareInterface
     public function getUser();
 
     /**
-     * @param mixed $value
+     * @param  mixed  $value
      * @return mixed
      */
     public function setUser($value);

@@ -18,13 +18,13 @@ interface PermissionRepositoryInterface
     public function syncPermissions(PermissionAwareInterface $model, ...$permissions): bool;
 
     /**
-     * @param string|int $id
+     * @param  string|int  $id
      * @return mixed
      */
     public function findUsingId($id);
 
     /**
-     * @param mixed $value
+     * @param  mixed  $value
      * @return mixed
      */
     public function findOneUsingColumn(string $column, $value);
@@ -35,7 +35,7 @@ interface PermissionRepositoryInterface
     public function findOneUsingColumns(array $columns);
 
     /**
-     * @param mixed $value
+     * @param  mixed  $value
      * @return mixed
      */
     public function findUsingColumn(string $column, $value);
