@@ -3,35 +3,28 @@
     "description": "Contract package using in Inisiatif Zakat Indonesia",
     "license": "proprietary",
     "type": "library",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://repo.packagist.com/inisiatif/"
-        },
-        {
-            "packagist.org": false
-        }
-    ],
     "require": {
         "php": "~8.0.0|~8.1.0",
         "ext-json": "*",
-        "illuminate/cache": "^9.19",
+        "illuminate/cache": "^9.19|^10.10",
         "illuminate/contracts": "^9.19"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "roave/security-advisories": "dev-latest"
     },
     "autoload": {
         "psr-4": {
             "Inisiatif\\Package\\Contract\\": "src/"
         }
     },
+    "scripts": {
+        "format": "vendor/bin/pint"
+    },
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.1-dev"
-        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
