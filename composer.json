@@ -6,8 +6,8 @@
     "require": {
         "php": "^8.0",
         "ext-json": "*",
-        "illuminate/cache": "^9.19|^10.10",
-        "illuminate/contracts": "^9.19|^10.10"
+        "illuminate/cache": "^9.19|^10.10|^11.0",
+        "illuminate/contracts": "^9.19|^10.10|^11.0"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
